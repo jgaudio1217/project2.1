@@ -1,0 +1,46 @@
+.grid-item1 { 
+border: 1px Solid Black; 
+text-align: center; 
+font-size: 50px; 
+grid-column-start: 1;
+grid-column-end: 5; 
+
+} 
+.grid-item2, .grid-item3, .grid-item4, .grid-item5, .grid-item6, .grid-item9, .grid-item10 { 
+border: 1px solid black;
+color:black;
+
+}
+.main-grid {
+grid-template-columns: 25% 25% 25% 25% ;
+display: grid;
+font-size: 20px;
+text-align: center; 
+}
+
+
+body {
+background:#d1ac62;
+}
+
+img {
+	height: 600px;
+	width: 750px;
+	position: relative;
+	left: 650px; 
+}
+	
+.grid-item9 {
+	font-size: 20px;
+	
+}
+
+.racial-table, .table1 {
+	float: right;
+	border: solid black 2px  
+}
+
+.riot-img{ 
+	float: right;  
+} 
+
